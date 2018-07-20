@@ -22,6 +22,7 @@ For this research, I have used OpenFOAM, an C++ open source implementation for p
 <p align="center">
   <img src="assets/geometry.png">
 </p>
+
 ### Generating simulation 
 This is the most laborious task. As deep learning requires plenty of data, I needed about thousands of simulations of varying geometries so that it can predict simulation of unknown geometry. For this purpose, I changed the position of step from near the inlet region to the outlet i.e.  0.1 < x < 2.9, changing it height from 0.1 to 0.4 m. This is done by a python script where each steps are described with comments. Making the dataset contains following steps:
   1. Make 1500 random coordinates within some constraints.
@@ -41,11 +42,15 @@ After this almost 168GB simulation data has been generated. But all this data is
 ### Convolutional LSTM
 For long-range dependencies in time-series data, LSTM has been using for a longer period of time, that has proven stable and powerful. But typical LSTM implementation deals with 1-D series data only, as fluid simulation involves with spatial data, we need to use a variant of LSTM, proposed by X Shi et al, where state-to-state and input-to-state transitions are replaced by convolution operation. The key equations are shown below, where ‘∗’ denotes the convolution operator and ‘◦’ denotes the Hadamard product:
 
-![](assets/C-LSTM.png)
+<p align="center">
+  <img src="assets/C-LSTM.png">
+</p>
 
 ### Deep Learning Model 
 
-![](assets/my_model.png?style=centerme)
+<p align="center">
+  <img src="assets/my_model.png">
+</p>
 
 ### Results so far
 #### Velocity
