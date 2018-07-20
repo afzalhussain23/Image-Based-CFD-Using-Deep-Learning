@@ -10,7 +10,7 @@ This page is under construction.
 [Afzal Hussain](https://illusorytime.github.io/)
 
 ### Preface
-This January, during the starting of 7th semester I completed Andrew Ng’s [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) from Coursera. I was really fascinated how I can use different deep learning algorithms so that it can be useful in mechanical engineering. Than suddenly an idea came into my mind, deep learning models can be used to predict fluid simulation and after that I started doing research on this.
+This January, during the starting of 7th semester I completed Andrew Ng’s [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) from Coursera. I was really fascinated how I can use different deep learning algorithms so that it can be useful in mechanical engineering. Than suddenly an idea came into my mind, deep learning models can be used to predict fluid simulation and later I started doing research on this.
 
 This blog is about the whole procedure that I have gone through, from generating fluid simulation to deep learning model everything is explained here.
 
@@ -43,6 +43,11 @@ After this almost 168GB simulation data has been generated. But all this data is
 
 ### Convolutional LSTM
 For long-range dependencies in time-series data, [LSTM](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) has been using for a longer period of time, that has proven stable and powerful. But typical LSTM implementation deals with 1-D series data only, as fluid simulation involves with spatial data, we need to use a variant of LSTM, proposed by [X Shi et al.](https://arxiv.org/abs/1506.04214), where state-to-state and input-to-state transitions are replaced by convolution operation. The key equations are shown below, where ‘∗’ denotes the [convolution operator](https://en.wikipedia.org/wiki/Convolution) and ‘◦’ denotes the [Hadamard product](https://en.wikipedia.org/wiki/Hadamard_product_(matrices)):
+
+$$
+i_t = \omega(W_xi * \chi_t + W_hi * \Eta_{t-1} + W_ci ◦ Ct + b_i)
+
+$$
 
 <p align="center">
   <img height="500" width="750" src="assets/C-LSTM.png">
