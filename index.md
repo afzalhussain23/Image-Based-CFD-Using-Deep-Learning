@@ -45,7 +45,7 @@ After this almost 168GB simulation data has been generated. But all this data is
 For long-range dependencies in time-series data, [LSTM](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) has been using for a longer period of time, that has proven stable and powerful. But typical LSTM implementation deals with 1-D series data only, as fluid simulation involves with spatial data, we need to use a variant of LSTM, proposed by [X Shi et al.](https://arxiv.org/abs/1506.04214), where state-to-state and input-to-state transitions are replaced by convolution operation. The key equations are shown below, where ‘∗’ denotes the [convolution operator](https://en.wikipedia.org/wiki/Convolution) and ‘◦’ denotes the [Hadamard product](https://en.wikipedia.org/wiki/Hadamard_product_(matrices)):
 
 $$
-i_t = \sigma(W_xi * \chi_t + W_{hi} * \eta + W_ci ◦ Ct + b_i)
+i_t = \sigma(W_xi * \\mathrm{H}t + W_{hi} * \newcommand\Eta{\mathrm{H}} + W_ci ◦ Ct + b_i)
 
 $$
 
