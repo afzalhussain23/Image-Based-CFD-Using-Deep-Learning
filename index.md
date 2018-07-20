@@ -57,25 +57,19 @@ For long-range dependencies in time-series data, LSTM has been using for a longe
 
 <p align="center">
   <img src="assets/plots/U/1s.png">
-  <img src="assets/plots/U/2s.png">
   <img src="assets/plots/U/3s.png">
-  <img src="assets/plots/U/4s.png">
   <img src="assets/plots/U/5s.png">
 </p>
 
 <p align="center">
   <img src="assets/plots/p/1s.png">
-  <img src="assets/plots/p/2s.png">
   <img src="assets/plots/p/3s.png">
-  <img src="assets/plots/p/4s.png">
   <img src="assets/plots/p/5s.png">
 </p>
 
 <p align="center">
   <img src="assets/plots/T/1s.png">
-  <img src="assets/plots/T/2s.png">
   <img src="assets/plots/T/3s.png">
-  <img src="assets/plots/T/4s.png">
   <img src="assets/plots/T/5s.png">
 </p>
 
