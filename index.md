@@ -21,6 +21,9 @@ For this research, I have used OpenFOAM, an C++ open source implementation for p
 
 ![](assets/geometry.png)
 
+<p align="center">
+  <img width="555" height="300" src="http://www.fillmurray.com/460/300">
+</p>
 ### Generating simulation 
 This is the most laborious task. As deep learning requires plenty of data, I needed about thousands of simulations of varying geometries so that it can predict simulation of unknown geometry. For this purpose, I changed the position of step from near the inlet region to the outlet i.e.  0.1 < x < 2.9, changing it height from 0.1 to 0.4 m. This is done by a python script where each steps are described with comments. Making the dataset contains following steps:
   1. Make 1500 random coordinates within some constraints.
@@ -43,7 +46,7 @@ For long-range dependencies in time-series data, LSTM has been using for a longe
 
 ### Deep Learning Model 
 
-![](assets/my_model.png)
+![](assets/my_model.png?style=centerme)
 
 ### Result so far
 
