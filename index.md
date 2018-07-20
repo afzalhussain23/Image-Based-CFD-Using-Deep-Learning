@@ -19,8 +19,6 @@ This blog is about the whole procedure that I have gone through, from generating
 ### Case Setup
 For this research, I have used OpenFOAM, an C++ open source implementation for per-processing, solving and post-processing CFD simulation. The reason behind choosing OpenFOAM because its flexibility and automatization. Here supersonic flow over a forward-facing step is investigated. The problem description involves a flow of Mach 3 at an inlet to a rectangular geometry with a step near the inlet region that generates shock waves. The geometry is shown below:
 
-![](assets/geometry.png)
-
 <p align="center">
   <img src="assets/geometry.png">
 </p>
@@ -42,6 +40,7 @@ After this almost 168GB simulation data has been generated. But all this data is
 
 ### Convolutional LSTM
 For long-range dependencies in time-series data, LSTM has been using for a longer period of time, that has proven stable and powerful. But typical LSTM implementation deals with 1-D series data only, as fluid simulation involves with spatial data, we need to use a variant of LSTM, proposed by X Shi et al, where state-to-state and input-to-state transitions are replaced by convolution operation. The key equations are shown below, where ‘∗’ denotes the convolution operator and ‘◦’ denotes the Hadamard product:
+
 ![](assets/C-LSTM.png)
 
 ### Deep Learning Model 
