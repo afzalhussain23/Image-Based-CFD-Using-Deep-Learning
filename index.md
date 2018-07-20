@@ -39,11 +39,11 @@ After this almost 168GB simulation data has been generated. But all this data is
 
 ### Convolutional LSTM
 For long-range dependencies in time-series data, LSTM has been using for a longer period of time, that has proven stable and powerful. But typical LSTM implementation deals with 1-D series data only, as fluid simulation involves with spatial data, we need to use a variant of LSTM, proposed by X Shi et al, where state-to-state and input-to-state transitions are replaced by convolution operation. The key equations are shown below, where ‘∗’ denotes the convolution operator and ‘◦’ denotes the Hadamard product:
-![](https://github.com/IllusoryTime/Image-Based-CFD-Simulation-Using-Deep-Learning/blob/master/assets/C-LSTM.png)
+![](assets/C-LSTM.png)
 
 ### Deep Learning Model 
 
-![](https://github.com/IllusoryTime/Image-Based-CFD-Simulation-Using-Deep-Learning/blob/master/assets/my_model.png)
+![](assets/my_model.png)
 
 ### Result so far
 
