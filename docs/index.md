@@ -19,7 +19,7 @@ This blog is about the whole procedure that I have gone through, from generating
 ### Case Setup
 For this research, I have used OpenFOAM, an C++ open source implementation for per-processing, solving and post-processing CFD simulation. The reason behind choosing OpenFOAM because its flexibility and automatization. Here supersonic flow over a forward-facing step is investigated. The problem description involves a flow of Mach 3 at an inlet to a rectangular geometry with a step near the inlet region that generates shock waves. The geometry is shown below:
 
-![](/assets/geometry.png)
+![](../assets/geometry.png)
 
 ### Generating simulation 
 This is the most laborious task. As deep learning requires plenty of data, I needed about thousands of simulations of varying geometries so that it can predict simulation of unknown geometry. For this purpose, I changed the position of step from near the inlet region to the outlet i.e.  0.1 < x < 2.9, changing it height from 0.1 to 0.4 m. This is done by a python script where each steps are described with comments. Making the dataset contains following steps:
