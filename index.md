@@ -9,7 +9,7 @@ This page is under construction.
 ### Author
 [Afzal Hussain](https://illusorytime.github.io/)
 
-### What is the blog is actually about
+### Why This Blog
 This January, during the starting of 7th semester I completed Andrew Ng’s Deep Learning Specialization from Coursera. I was really fascinated how I can use different deep learning algorithms so that it can be useful in mechanical engineering. Than suddenly an idea came to my mind, deep learning models can be used to predict fluid simulation and after that I started doing research on this.
 
 This blog is about the whole procedure that I have gone through, from generating fluid simulation to deep learning model everything is explained here.
@@ -47,8 +47,32 @@ For long-range dependencies in time-series data, LSTM has been using for a longe
 
 ![](assets/my_model.png?style=centerme)
 
-### Result so far
+### Results so far
+#### Velocity
 
+<p align="center">
+  <img src="assets/plots/U/1s.png">
+  <img src="assets/plots/U/2s.png">
+  <img src="assets/plots/U/3s.png">
+  <img src="assets/plots/U/4s.png">
+  <img src="assets/plots/U/5s.png">
+</p>
+
+<p align="center">
+  <img src="assets/plots/p/1s.png">
+  <img src="assets/plots/p/2s.png">
+  <img src="assets/plots/p/3s.png">
+  <img src="assets/plots/p/4s.png">
+  <img src="assets/plots/p/5s.png">
+</p>
+
+<p align="center">
+  <img src="assets/plots/T/1s.png">
+  <img src="assets/plots/T/2s.png">
+  <img src="assets/plots/T/3s.png">
+  <img src="assets/plots/T/4s.png">
+  <img src="assets/plots/T/5s.png">
+</p>
 
 
 ### What to-do next
