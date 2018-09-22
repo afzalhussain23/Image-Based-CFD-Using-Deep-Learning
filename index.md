@@ -50,7 +50,7 @@ As fluid simulation is time-depended I have used three [TimeDistributed](https:/
 
 ### Results so far
 
-The model is evaluated on geometries that are previously unknown to the model. The obtained results are realistic, competitive in accuracy; it successfully shows discontinuities in shock waves, emanating from ahead of the base of the step, and also captures the time-dependent development of the shock-waves. While this work has been performed on one problem specification, it illustrates the viability of data-driven approaches in computational fluid dynamics. Below a comparison between actual simulation and the predicted one by the model is shown for velocity, pressure and temperature at $$t = 1, 2 & 3$$ seconds.
+The model is evaluated on geometries that are previously unknown to the model. The obtained results are realistic, competitive in accuracy; it successfully shows discontinuities in shock waves, emanating from ahead of the base of the step, and also captures the time-dependent development of the shock-waves. While this work has been performed on one problem specification, it illustrates the viability of data-driven approaches in computational fluid dynamics. Below a comparison between actual simulation and the predicted one by the model is shown for velocity, pressure and temperature at $$t = 1, 2 \& 3$$ seconds.
 
 ##### Velocity
 
