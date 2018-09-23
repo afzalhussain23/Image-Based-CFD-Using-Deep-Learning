@@ -87,4 +87,4 @@ In the past few years, deep learning has exhibited unprecedented competency and 
 [Maziar Raissi's Research](http://www.dam.brown.edu/people/mraissi/research/) \\
 [Data-driven Fluid Simulations using Regression Forests](https://www.inf.ethz.ch/personal/ladickyl/fluid_sigasia15.pdf) \\
 [Convolutional Neural Networks for Steady Flow Approximation](https://autodeskresearch.com/sites/default/files/ADSK-KDD2016.pdf) \\
-[Application of Convolutional Neural Network to Predict Airfoil Lift Coefficient](https://pdfs.semanticscholar.org/ef39/ed630a8fca2e33fb2253e2a9faf4e3ad391d.pdf) \\
+[Application of Convolutional Neural Network to Predict Airfoil Lift Coefficient](https://pdfs.semanticscholar.org/ef39/ed630a8fca2e33fb2253e2a9faf4e3ad391d.pdf)
