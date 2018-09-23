@@ -1,4 +1,4 @@
-# Image-Based-CFD-Simulation-Using-Deep-Learning
+# Image Based CFD Using Deep Learning
 
 To read the blog please visit the [link](https://illusorytime.github.io/Image-Based-CFD-Using-Deep-Learning/) \
 All the codes will be uploaded soon. \
