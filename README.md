@@ -18,7 +18,7 @@ For this research, I have used [OpenFOAM](https://en.wikipedia.org/wiki/OpenFOAM
 </p>
 
 ### Generating simulation 
-This is the most laborious task. As deep learning requires plenty of data, I needed about thousands of simulations of varying geometries so that it can predict simulation of unknown geometries. For this purpose, I changed the position of step from near the inlet region to the outlet i.e.  $$0.1 < x < 2.9$$, ranging it height $0.1 < y < 0.4$. This is done by a python script where each step are described with comments. Making the dataset contains the following steps:
+This is the most laborious task. As deep learning requires plenty of data, I needed about thousands of simulations of varying geometries so that it can predict simulation of unknown geometries. For this purpose, I changed the position of step from near the inlet region to the outlet i.e.  0.1 < x < 2.9, ranging it height 0.1 < y < 0.4. This is done by a python script where each step are described with comments. Making the dataset contains the following steps:
   1. Make 1500 random coordinates within some constraints.
   2. Remove previous simulation file (if it exists).
   3. Copy the OpenFOAM _forwardStep_ directory.
@@ -50,7 +50,7 @@ As fluid simulation is time-depended I have used three [TimeDistributed](https:/
 
 ### Results so far
 
-The model is evaluated on geometries that are previously unknown to the model. The obtained results are realistic, competitive in accuracy; it successfully shows discontinuities in shock waves, emanating from ahead of the base of the step, and also captures the time-dependent development of the shock-waves. While this work has been performed on one problem specification, it illustrates the viability of data-driven approaches in computational fluid dynamics. Below a comparison between actual simulation and the predicted one by the model is shown for velocity, pressure and temperature at $$t = 1, 2 \& 3$$ seconds.
+The model is evaluated on geometries that are previously unknown to the model. The obtained results are realistic, competitive in accuracy; it successfully shows discontinuities in shock waves, emanating from ahead of the base of the step, and also captures the time-dependent development of the shock-waves. While this work has been performed on one problem specification, it illustrates the viability of data-driven approaches in computational fluid dynamics. Below a comparison between actual simulation and the predicted one by the model is shown for velocity, pressure and temperature at t = 1, 2 \& 3 seconds.
 
 ##### Velocity
 
@@ -88,4 +88,3 @@ In the past few years, deep learning has exhibited unprecedented competency and 
 [Data-driven Fluid Simulations using Regression Forests](https://www.inf.ethz.ch/personal/ladickyl/fluid_sigasia15.pdf) \
 [Convolutional Neural Networks for Steady Flow Approximation](https://autodeskresearch.com/sites/default/files/ADSK-KDD2016.pdf) \
 [Application of Convolutional Neural Network to Predict Airfoil Lift Coefficient](https://pdfs.semanticscholar.org/ef39/ed630a8fca2e33fb2253e2a9faf4e3ad391d.pdf)
-
