@@ -1,12 +1,6 @@
 # Image Based CFD Using Deep Learning
-
 To read the blog please visit the [link](https://illusorytime.github.io/Image-Based-CFD-Using-Deep-Learning/) \
-All the codes will be uploaded soon. \
 For any suggestions please mail at: afzalhussain@iut-dhaka.edu
-
----
-layout: default
----
 
 ### Author
 [Afzal Hussain](https://illusorytime.github.io/)
@@ -88,10 +82,10 @@ In the past few years, deep learning has exhibited unprecedented competency and 
 
 ### Related Research
 
-[Data-Driven Turbulence Modeling](https://www.aoe.vt.edu/people/faculty/xiaoheng/personal-page/research/data.html) \\
-[Turbulence Modeling Gateway](http://turbgate.engin.umich.edu/publications/) \\
-[Maziar Raissi's Research](http://www.dam.brown.edu/people/mraissi/research/) \\
-[Data-driven Fluid Simulations using Regression Forests](https://www.inf.ethz.ch/personal/ladickyl/fluid_sigasia15.pdf) \\
-[Convolutional Neural Networks for Steady Flow Approximation](https://autodeskresearch.com/sites/default/files/ADSK-KDD2016.pdf) \\
+[Data-Driven Turbulence Modeling](https://www.aoe.vt.edu/people/faculty/xiaoheng/personal-page/research/data.html) \
+[Turbulence Modeling Gateway](http://turbgate.engin.umich.edu/publications/) \
+[Maziar Raissi's Research](http://www.dam.brown.edu/people/mraissi/research/) \
+[Data-driven Fluid Simulations using Regression Forests](https://www.inf.ethz.ch/personal/ladickyl/fluid_sigasia15.pdf) \
+[Convolutional Neural Networks for Steady Flow Approximation](https://autodeskresearch.com/sites/default/files/ADSK-KDD2016.pdf) \
 [Application of Convolutional Neural Network to Predict Airfoil Lift Coefficient](https://pdfs.semanticscholar.org/ef39/ed630a8fca2e33fb2253e2a9faf4e3ad391d.pdf)
 
