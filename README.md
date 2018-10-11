@@ -1,6 +1,6 @@
 # Image Based CFD Using Deep Learning
 For a better view visit the [GitHub Page](https://illusorytime.github.io/Image-Based-CFD-Using-Deep-Learning/) \
-For any suggestions please mail me at: afzalhussain@iut-dhaka.edu
+For any suggestion/query please mail me at: afzalhussain@iut-dhaka.edu
 
 ### Author
 [Afzal Hussain](https://illusorytime.github.io/)
