@@ -1,5 +1,5 @@
 # Image Based CFD Using Deep Learning
-For a better view visit: [GitHub Page](https://illusorytime.github.io/Image-Based-CFD-Using-Deep-Learning/) \
+For a better view visit the [GitHub Page](https://illusorytime.github.io/Image-Based-CFD-Using-Deep-Learning/) \
 For any suggestions please mail me at: afzalhussain@iut-dhaka.edu
 
 ### Author
@@ -18,7 +18,7 @@ For this research, I have used [OpenFOAM](https://en.wikipedia.org/wiki/OpenFOAM
 </p>
 
 ### Generating simulation 
-This is the most laborious task. As deep learning requires plenty of data, I needed about thousands of simulations of varying geometries so that it can predict simulation of unknown geometries. For this purpose, I changed the position of step from near the inlet region to the outlet i.e.  $$0.1 < x < 2.9$$, ranging it height $$0.1 < y < 0.4$$. This is done by a python script where each step are described with comments. Making the dataset contains the following steps:
+This is the most laborious task. As deep learning requires plenty of data, I needed about thousands of simulations of varying geometries so that it can predict simulation of unknown geometries. For this purpose, I changed the position of step from near the inlet region to the outlet i.e.  $$0.1 < x < 2.9$$, ranging it height $0.1 < y < 0.4$. This is done by a python script where each step are described with comments. Making the dataset contains the following steps:
   1. Make 1500 random coordinates within some constraints.
   2. Remove previous simulation file (if it exists).
   3. Copy the OpenFOAM _forwardStep_ directory.
